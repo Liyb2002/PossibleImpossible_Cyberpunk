@@ -1,0 +1,193 @@
+[
+    {
+      "object_id": 1,
+      "scope_x": [0.15,0.15],
+      "scope_y": [0.8,1.2],
+      "scope_z": [0.15,0.15],
+      "canTerminate": "True",
+      "cycle_connect": "True",
+      "rotation": [[0],[0],[0]],
+      "connect_id": [[3,0.3],[4,0.1],[5,0.1],[6,0.1],[7,0.1],[8,0.3]],
+      "connect_rule":{
+        "3" : ["-y"],
+        "4" : ["-x"],
+        "5" : ["+x"],
+        "6" : ["-z"],
+        "7" : ["+z"],
+        "8" : ["+y"]
+      },
+      "offsets":{
+        "3" : [0.0,0.0,0.0],
+        "4" : [0.0,0.0,0.0],
+        "5" : [0.0,0.0,0.0],
+        "6" : [0.0,0.0,0.0],
+        "7" : [0.0,0.0,0.0],
+        "8" : [0.0,0.0,0.0]
+
+      }
+    },
+    {
+        "object_id": 2,
+        "scope_x": [0.01,0.01],
+        "scope_y": [0.2,0.4],
+        "scope_z": [0.01,0.01],
+        "canTerminate": "True",
+        "cycle_connect": "True",
+        "rotation": [[0],[0],[0]],
+        "connect_id": [],
+        "connect_rule":{},
+      "offsets":{}
+      },
+      {
+        "object_id": 3,
+        "scope_x": [0.15,0.15],
+        "scope_y": [0.4,0.8],
+        "scope_z": [0.15,0.15],
+        "canTerminate": "True",
+        "cycle_connect": "True",
+        "rotation": [[0],[0],[0]],
+        "connect_id": [[1,0.1],[10,0.9]],
+        "connect_rule":{
+          "1" : [ "-y"],
+          "10" : [ "+x"]
+
+        },
+        "offsets":{
+          "1" : [0.0,0.0,0.0],
+          "10" : [0.0,0.2,0.0]
+
+        }
+      },
+      {
+        "object_id": 4,
+        "scope_x": [0.2,0.5],
+        "scope_y": [0.075,0.075],
+        "scope_z": [0.05,0.05],
+        "canTerminate": "False",
+        "cycle_connect": "True",
+        "rotation": [[0.3, 0.2, -0.2, -0.3],[0],[0.3, 0.2, -0.2, -0.3]],
+        "connect_id": [[1, 1.0]],
+        "connect_rule":{
+          "1" : [ "-x"]
+        },
+        "offsets":{
+          "1" : [0.0,0.0,0.0]
+        }
+      },
+      {
+        "object_id": 5,
+        "scope_x": [0.2,0.5],
+        "scope_y": [0.075,0.075],
+        "scope_z": [0.05,0.05],
+        "canTerminate": "False",
+        "cycle_connect": "True",
+        "rotation": [[0.3, 0.2, -0.2, -0.3],[0],[0.3, 0.2, -0.2, -0.3]],
+        "connect_id": [[1,1.0]],
+        "connect_rule":{
+          "1" : [ "+x"]
+        },
+        "offsets":{
+          "1" : [0.0,0.0,0.0]
+        }
+      },
+      {
+        "object_id": 6,
+        "scope_x": [0.05,0.05],
+        "scope_y": [0.075,0.075],
+        "scope_z": [0.2,0.5],
+        "canTerminate": "False",
+        "cycle_connect": "True",
+        "rotation": [[0],[0.3, 0.2, -0.2, -0.3],[0.3, 0.2, -0.2, -0.3]],
+        "connect_id": [[1,1.0]],
+        "connect_rule":{
+          "1" : [ "-z"]
+        },
+        "offsets":{
+          "1" : [0.0,0.0,0.0]
+        }
+      },
+      {
+        "object_id": 7,
+        "scope_x": [0.05,0.05],
+        "scope_y": [0.075,0.075],
+        "scope_z": [0.2,0.5],
+        "canTerminate": "False",
+        "cycle_connect": "True",
+        "rotation": [[0],[0.3, 0.2, -0.2, -0.3],[0.3, 0.2, -0.2, -0.3]],
+        "connect_id": [[1,1.0]],
+        "connect_rule":{
+          "1" : [ "+z"]
+        },
+        "offsets":{
+          "1" : [0.0,0.0,0.0]
+        }
+      },
+      {
+        "object_id": 8,
+        "scope_x": [0.15,0.15],
+        "scope_y": [0.4,0.8],
+        "scope_z": [0.15,0.15],
+        "canTerminate": "True",
+        "cycle_connect": "True",
+        "rotation": [[0],[0],[0]],
+        "connect_id": [[11,0.9],[1,0.1]],
+        "connect_rule":{
+          "1" : [ "+y"],
+          "11" : [ "-z"]
+        },
+        "offsets":{
+          "1" : [0.0,0.0,0.0],
+          "11" : [0.0,-0.2,0.0]
+       }
+      },
+      {
+        "object_id": 9,
+        "scope_x": [0.15,0.15],
+        "scope_y": [0.15,0.15],
+        "scope_z": [0.05,0.05],
+        "canTerminate": "Dummy for RoofTop",
+        "cycle_connect": "True",
+        "rotation": [[0],[0],[0]],
+        "connect_id": [],
+        "connect_rule":{
+        },
+        "offsets":{
+        }
+      },
+      {
+        "object_id": 10,
+        "scope_x": [1.2,1.8],
+        "scope_y": [0.1,0.1],
+        "scope_z": [0.12,0.12],
+        "canTerminate": "False",
+        "cycle_connect": "True",
+        "rotation": [[0],[0],[0]],
+        "connect_id": [[1,1.0]],
+        "connect_rule":{
+          "1" : [ "+x"]
+
+        },
+        "offsets":{
+          "1" : [0.0,0.0,0.0]
+        }
+      },
+      {
+        "object_id": 11,
+        "scope_x": [0.12,0.12],
+        "scope_y": [0.1,0.1],
+        "scope_z": [1.5,2.8],
+        "canTerminate": "False",
+        "cycle_connect": "True",
+        "rotation": [[0],[0],[0]],
+        "connect_id": [[1,1.0]],
+        "connect_rule":{
+          "1" : [ "-z"]
+
+        },
+        "offsets":{
+          "1" : [0.0,0.0,0.0]
+        }
+      }
+
+
+  ]
